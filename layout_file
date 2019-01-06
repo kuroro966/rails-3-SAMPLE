@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
-    <!-- こちらのyieldはprovide(:title,"●●●●●●")された部分が置き換わる-->
+    <title><%= yield(:title) %>| Ruby on Rails Tutorial Sample App</title>
  
     <%= csrf_meta_tags %>
 
@@ -12,6 +11,5 @@
 
   <body>
     <%= yield %>
-    <!-- こちらのyieldはhtmlファイルのbody全体が置き換わる-->
   </body>
 </html>
